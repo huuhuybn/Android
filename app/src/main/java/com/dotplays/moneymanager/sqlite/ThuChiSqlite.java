@@ -21,6 +21,12 @@ public class ThuChiSqlite extends SQLiteOpenHelper {
     public static final String TC_KHOAN_THU_CHI = "khoanThuChi";
     public static final String TC_LOAI_THU_CHI = "loaiThuChi";
 
+    // sau nay dung cau lenh where de truy van danh sach khoan_thu hoac khoan_chi
+    public static final String KHOAN_THU = "khoan_thu";
+
+    public static final String KHOAN_CHI = "khoan_chi";
+
+
     // sinh vien khai bao them 1 bang nua la LoaiThuChi
 
 
